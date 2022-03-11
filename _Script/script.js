@@ -60,7 +60,7 @@ var numeroSecreto2 = parseInt(Math.random() * 41);
         if (chute4 == numeroSecreto4) {
             elementoResultado4.innerHTML = "Parabéns, você acertou... ";
         }else if (chute4 > 100 || chute4 < 0){
-            elementoResultado4.innerHTML = "Vocês devem digitar um (2) número de 0 a 70";
+            elementoResultado4.innerHTML = "Vocês devem digitar um (2) número de 0 a 100";
         }else {
             elementoResultado4.innerHTML = "Triste que você errou, tente novamente";
         }
