@@ -14,7 +14,7 @@ var numeroSecreto = parseInt(Math.random() * 21 );
         elementoResultado.innerHTML = "Vocês devem digitar um número de 0 a 20";
 
      }else{
-        elementoResultado.innerHTML = "Triste que você errou, O Número Secreto era?" + numeroSecreto;
+        elementoResultado.innerHTML = "Triste que você errou, O Número Secreto era? " + numeroSecreto;
      }
  }
 
