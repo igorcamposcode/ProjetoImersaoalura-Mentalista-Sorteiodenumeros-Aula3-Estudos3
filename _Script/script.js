@@ -46,7 +46,7 @@ var numeroSecreto2 = parseInt(Math.random() * 41);
         }else if (chute3 > 70 || chute3 < 0){
             elementoResultado3.innerHTML = "Vocês devem digitar um (2) número de 0 a 70";
         }else {
-            elementoResultado.innerHTML = "Triste que você errou, O Número Secreto era? " + numeroSecreto3;
+            elementoResultado3.innerHTML = "Triste que você errou, O Número Secreto era? " + numeroSecreto3;
         }
   }
 
