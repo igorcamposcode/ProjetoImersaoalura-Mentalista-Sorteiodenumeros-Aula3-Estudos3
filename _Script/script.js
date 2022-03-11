@@ -14,7 +14,7 @@ var numeroSecreto = parseInt(Math.random() * 21 );
         elementoResultado.innerHTML = "Vocês devem digitar um número de 0 a 20";
 
      }else{
-        elementoResultado.innerHTML = "Triste que você errou, O Número Secreto era? " + numeroSecreto;
+        elementoResultado.innerHTML = "Triste que você errou, tente novamente";
      }
  }
 
@@ -30,7 +30,7 @@ var numeroSecreto2 = parseInt(Math.random() * 41);
       }else if (chute2 >40 || chute2 < 0){
           elementoResultado2.innerHTML = "Vocês devem digitar um (2) número de 0 a 40";
       }else {
-          elementoResultado2.innerHTML = "Triste que você errou, O Número Secreto era? " + numeroSecreto2;
+          elementoResultado2.innerHTML = "Triste que você errou, tente novamente";
       }
  }
 
@@ -46,7 +46,7 @@ var numeroSecreto2 = parseInt(Math.random() * 41);
         }else if (chute3 > 70 || chute3 < 0){
             elementoResultado3.innerHTML = "Vocês devem digitar um (2) número de 0 a 70";
         }else {
-            elementoResultado3.innerHTML = "Triste que você errou, O Número Secreto era? " + numeroSecreto3;
+            elementoResultado3.innerHTML = "Triste que você errou, tente novamente";
         }
   }
 
@@ -62,6 +62,6 @@ var numeroSecreto2 = parseInt(Math.random() * 41);
         }else if (chute4 > 100 || chute4 < 0){
             elementoResultado4.innerHTML = "Vocês devem digitar um (2) número de 0 a 70";
         }else {
-            elementoResultado4.innerHTML = "Triste que você errou, O Número Secreto era? " + numeroSecreto4;
+            elementoResultado4.innerHTML = "Triste que você errou, tente novamente";
         }
   }
